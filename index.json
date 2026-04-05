@@ -1,0 +1,235 @@
+{
+  "directory": "D:\\CSDLDPT\\chapter6\\chapter6_sample",
+  "stoplist_path": "D:\\CSDLDPT\\chapter6\\chapter6_sample\\StopList.txt",
+  "normalization_mode": "lemma",
+  "doc_table": {
+    "doc1.txt": {
+      "doc_id": 1,
+      "filename": "doc1.txt",
+      "path": "D:\\CSDLDPT\\chapter6\\chapter6_sample\\doc1.txt",
+      "token_count": 12
+    },
+    "doc2.txt": {
+      "doc_id": 2,
+      "filename": "doc2.txt",
+      "path": "D:\\CSDLDPT\\chapter6\\chapter6_sample\\doc2.txt",
+      "token_count": 12
+    },
+    "doc3.txt": {
+      "doc_id": 3,
+      "filename": "doc3.txt",
+      "path": "D:\\CSDLDPT\\chapter6\\chapter6_sample\\doc3.txt",
+      "token_count": 11
+    },
+    "lemma_demo.txt": {
+      "doc_id": 4,
+      "filename": "lemma_demo.txt",
+      "path": "D:\\CSDLDPT\\chapter6\\chapter6_sample\\lemma_demo.txt",
+      "token_count": 6
+    },
+    "query.txt": {
+      "doc_id": 5,
+      "filename": "query.txt",
+      "path": "D:\\CSDLDPT\\chapter6\\chapter6_sample\\query.txt",
+      "token_count": 6
+    }
+  },
+  "term_table": [
+    "1",
+    "2",
+    "3",
+    "above",
+    "bird",
+    "calm",
+    "can",
+    "candy",
+    "car",
+    "carefully",
+    "cat",
+    "celebration",
+    "center",
+    "chase",
+    "child",
+    "city",
+    "clean",
+    "client",
+    "cloud",
+    "code",
+    "coder",
+    "coin",
+    "collect",
+    "colorful",
+    "community",
+    "computing",
+    "connected",
+    "convenience",
+    "craft",
+    "create",
+    "creative",
+    "cross",
+    "crossroad",
+    "crowded",
+    "during",
+    "fly",
+    "river"
+  ],
+  "inverted_index": {
+    "cat": {
+      "doc1.txt": 1,
+      "lemma_demo.txt": 4,
+      "query.txt": 1
+    },
+    "chase": {
+      "doc1.txt": 1
+    },
+    "colorful": {
+      "doc1.txt": 1
+    },
+    "car": {
+      "doc1.txt": 1,
+      "doc2.txt": 1,
+      "lemma_demo.txt": 2,
+      "query.txt": 1
+    },
+    "city": {
+      "doc1.txt": 1
+    },
+    "center": {
+      "doc1.txt": 1
+    },
+    "cloud": {
+      "doc1.txt": 1,
+      "query.txt": 1
+    },
+    "computing": {
+      "doc1.txt": 1
+    },
+    "create": {
+      "doc1.txt": 1
+    },
+    "convenience": {
+      "doc1.txt": 1
+    },
+    "connected": {
+      "doc1.txt": 1
+    },
+    "client": {
+      "doc1.txt": 1
+    },
+    "can": {
+      "doc2.txt": 1
+    },
+    "cross": {
+      "doc2.txt": 1
+    },
+    "crowded": {
+      "doc2.txt": 1
+    },
+    "crossroad": {
+      "doc2.txt": 1
+    },
+    "carefully": {
+      "doc2.txt": 1
+    },
+    "creative": {
+      "doc2.txt": 1
+    },
+    "coder": {
+      "doc2.txt": 1
+    },
+    "craft": {
+      "doc2.txt": 1
+    },
+    "clean": {
+      "doc2.txt": 1
+    },
+    "code": {
+      "doc2.txt": 1
+    },
+    "community": {
+      "doc2.txt": 1
+    },
+    "bird": {
+      "doc3.txt": 1
+    },
+    "fly": {
+      "doc3.txt": 1
+    },
+    "above": {
+      "doc3.txt": 1
+    },
+    "calm": {
+      "doc3.txt": 1
+    },
+    "river": {
+      "doc3.txt": 1
+    },
+    "child": {
+      "doc3.txt": 1
+    },
+    "collect": {
+      "doc3.txt": 1
+    },
+    "coin": {
+      "doc3.txt": 1
+    },
+    "candy": {
+      "doc3.txt": 1
+    },
+    "during": {
+      "doc3.txt": 1
+    },
+    "celebration": {
+      "doc3.txt": 1
+    },
+    "3": {
+      "query.txt": 1
+    },
+    "2": {
+      "query.txt": 1
+    },
+    "1": {
+      "query.txt": 1
+    }
+  },
+  "doc_frequencies": {
+    "cat": 3,
+    "chase": 1,
+    "colorful": 1,
+    "car": 4,
+    "city": 1,
+    "center": 1,
+    "cloud": 2,
+    "computing": 1,
+    "create": 1,
+    "convenience": 1,
+    "connected": 1,
+    "client": 1,
+    "can": 1,
+    "cross": 1,
+    "crowded": 1,
+    "crossroad": 1,
+    "carefully": 1,
+    "creative": 1,
+    "coder": 1,
+    "craft": 1,
+    "clean": 1,
+    "code": 1,
+    "community": 1,
+    "bird": 1,
+    "fly": 1,
+    "above": 1,
+    "calm": 1,
+    "river": 1,
+    "child": 1,
+    "collect": 1,
+    "coin": 1,
+    "candy": 1,
+    "during": 1,
+    "celebration": 1,
+    "3": 1,
+    "2": 1,
+    "1": 1
+  },
+  "document_count": 5
+}

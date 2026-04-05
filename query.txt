@@ -1,0 +1,4 @@
+cats 5
+cars 3
+cloud 2
+code 4
